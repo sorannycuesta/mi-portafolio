@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Soranny | Desarrolladora Full Stack Java</title>
+    <meta name="description" content="Portafolio de Soranny, desarrolladora Full Stack Java en formación. Proyecto destacado: CanchaYa, reservas de canchas de barrio con Spring Boot y MySQL.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Soranny | Desarrolladora Full Stack Java">
+    <meta property="og:description" content="Aplicaciones web claras, pensadas para quien las usa. Java, Spring Boot y MySQL.">
+    <!-- TODO: cuando tengas una imagen de portada, agrega aquí: <meta property="og:image" content="URL_DE_LA_IMAGEN"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Work+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="contenedor">
+        <header class="encabezado">
+            <a class="logo" href="index.html#inicio"><img src="img/logo.svg" alt="SC.dev, inicio" width="44" height="44"></a>
+            <nav class="menu" aria-label="Principal">
+                <a href="#inicio">Inicio</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#tablero">Mi tablero</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <a class="boton" href="#contacto">Contáctame</a>
+        </header>
+
+        <!-- 1. INICIO -->
+        <section class="seccion" id="inicio">
+            <div class="presentacion">
+                <div class="presentacion__texto">
+                    <p class="saludo">Hola, soy Soranny</p>
+                    <h1>Aplicaciones web <span class="subrayado">claras</span>, pensadas para quien las usa.</h1>
+                    <p class="bajada">Desarrollo con Java y Spring Boot y diseño pensando en la persona al otro lado de
+                        la pantalla. Vengo de atender clientes, así que sé cómo se ve un problema real.</p>
+                    <p class="estado"><span class="estado__punto" aria-hidden="true"></span>Desarrolladora Full Stack Java en formación</p>
+                    <div class="acciones">
+                        <a class="boton boton--primario" href="canchaya.html">Ver Proyectos</a>
+                        <a class="boton" href="https://github.com/TU-USUARIO" target="_blank" rel="noopener">GitHub</a><!-- TODO: tu usuario de GitHub -->
+                    </div>
+                </div>
+
+                <div class="collage">
+                    <!-- TODO: cuando tengas tu foto recortada (PNG sin fondo), reemplaza el monograma por:
+                         <img class="retrato__img" src="foto.png" alt="Soranny, desarrolladora Full Stack Java"> -->
+                    <div class="retrato" aria-hidden="true"><span>S</span></div>
+                    <span class="pegatina pegatina--uno">Chocó → Medellín</span>
+                    <span class="pegatina pegatina--dos">Java + Spring Boot</span>
+                    <p class="nota nota--hero">Ahora mismo: construyendo CanchaYa con mi equipo de 5.</p>
+                </div>
+            </div>
+
+            <ul class="contadores">
+                <li class="contador"><strong>5</strong>personas en el equipo de CanchaYa</li>
+                <li class="contador"><strong>6</strong>proyectos, en equipo y propios</li>
+                <li class="contador"><strong>Scrum</strong>cómo organizo el trabajo</li>
+            </ul>
+        </section>
+
+        <div class="cinta" aria-hidden="true">
+            <div class="cinta__pista">
+                <span>FULL STACK JAVA + CÓDIGO LIMPIO + OJO DE DISEÑADORA + APRENDIENDO EN PÚBLICO + </span>
+                <span>FULL STACK JAVA + CÓDIGO LIMPIO + OJO DE DISEÑADORA + APRENDIENDO EN PÚBLICO + </span>
+            </div>
+        </div>
+
+        <!-- 2. PROYECTOS -->
+        <section class="seccion" id="proyectos">
+            <p class="kicker">lo que he construido</p>
+            <h2 class="titulo-seccion">Proyecto destacado</h2>
+            <article class="destacado papel revelar">
+                <div class="portada portada--canchaya" aria-hidden="true">
+                    <!-- TODO: cuando tengas una captura real de CanchaYa, agrégala: <img src="img/canchaya.png" alt="Pantalla de reservas de CanchaYa"> -->
+                    <span class="portada__nombre">CanchaYa</span>
+                </div>
+                <div class="destacado__info">
+                    <p class="texto-suave texto-pequeno">Proyecto integrador · 2026 · En desarrollo</p>
+                    <h3 class="destacado__titulo">CanchaYa</h3>
+                    <p class="texto-suave">Plataforma para reservar canchas de barrio. Trabajamos en equipo con
+                        Scrum y yo participo en todos los roles: backend, frontend, documentación y liderazgo.</p>
+                    <ul class="habilidades habilidades--chicas">
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>MySQL</li>
+                        <li>Scrum</li>
+                    </ul>
+                    <div class="acciones">
+                        <a class="boton boton--primario" href="canchaya.html">Leer el caso completo</a>
+                        <a class="boton" href="https://github.com/TU-USUARIO/canchaya" target="_blank" rel="noopener">Ver código</a><!-- TODO: link real del repo -->
+                    </div>
+                </div>
+            </article>
+
+            <h2 class="titulo-seccion">Otros proyectos</h2>
+            <div class="rejilla">
+                <article class="tarjeta revelar">
+                    <div class="portada portada--plato" aria-hidden="true"><span class="portada__nombre">Colombia en un plato</span></div>
+                    <h3>Colombia en un plato</h3>
+                    <p>Tienda de platos típicos con carrito de compras.</p>
+                    <span class="etiqueta">Bootstrap · JavaScript</span>
+                    <a class="enlace" href="https://github.com/TU-USUARIO/colombia-en-un-plato" target="_blank" rel="noopener">Ver código</a><!-- TODO -->
+                </article>
+                <article class="tarjeta revelar">
+                    <div class="portada portada--plaza" aria-hidden="true"><span class="portada__nombre">Sabores de la Plaza</span></div>
+                    <h3>Sabores de la Plaza</h3>
+                    <p>Sitio de tres páginas para una plaza de mercado.</p>
+                    <span class="etiqueta">Bootstrap</span>
+                    <a class="enlace" href="https://github.com/TU-USUARIO/sabores-de-la-plaza" target="_blank" rel="noopener">Ver código</a><!-- TODO -->
+                </article>
+                <article class="tarjeta revelar">
+                    <div class="portada portada--barberia" aria-hidden="true"><span class="portada__nombre">Barbería Estilo Urbano</span></div>
+                    <h3>Barbería Estilo Urbano</h3>
+                    <p>Sitio hecho en equipo. Mi aporte: todo el diseño y el CSS.</p>
+                    <span class="etiqueta">HTML · CSS</span>
+                    <a class="enlace" href="https://github.com/TU-USUARIO/barberia-estilo-urbano" target="_blank" rel="noopener">Ver código</a><!-- TODO -->
+                </article>
+            </div>
+
+            <h2 class="titulo-seccion">Laboratorio</h2>
+            <p class="texto-suave subtitulo">Ejercicios de práctica para aprender a consumir APIs con JavaScript.</p>
+            <div class="rejilla rejilla--compacta">
+                <article class="tarjeta tarjeta--simple revelar">
+                    <h3>Mini Rick Morty Dex</h3>
+                    <p>Personajes desde una API.</p>
+                    <span class="etiqueta">JavaScript · API</span>
+                    <a class="enlace" href="https://github.com/TU-USUARIO/rick-morty-dex" target="_blank" rel="noopener">Ver código</a><!-- TODO -->
+                </article>
+                <article class="tarjeta tarjeta--simple revelar">
+                    <h3>Pokédex con PokéAPI</h3>
+                    <p>Práctica de consumo de API.</p>
+                    <span class="etiqueta">JavaScript · API</span>
+                    <a class="enlace" href="https://github.com/TU-USUARIO/pokedex" target="_blank" rel="noopener">Ver código</a><!-- TODO -->
+                </article>
+            </div>
+        </section>
+
+        <!-- 3. TABLERO DE APRENDIZAJE (mi proceso, a la vista) -->
+        <section class="seccion" id="tablero">
+            <p class="kicker">mi proceso, a la vista</p>
+            <h2 class="titulo-seccion">Mi tablero de aprendizaje</h2>
+            <p class="texto-suave subtitulo">Así organizo lo que aprendo, igual que un sprint: lo que ya hice, lo que
+                estoy haciendo y lo que sigue.</p>
+            <div class="tablero revelar">
+                <div class="columna columna--hecho">
+                    <h3>Hecho <span class="columna__conteo">5</span></h3>
+                    <ul>
+                        <li>Pokédex con PokéAPI</li>
+                        <li>Mini Rick Morty Dex</li>
+                        <li>Colombia en un plato</li>
+                        <li>Sabores de la Plaza</li>
+                        <li>Barbería Estilo Urbano (el CSS)</li>
+                    </ul>
+                </div>
+                <div class="columna columna--curso">
+                    <h3>En curso <span class="columna__conteo">2</span></h3>
+                    <ul>
+                        <li>CanchaYa, en equipo con Scrum</li>
+                        <li>Java y Spring Boot en el bootcamp</li>
+                    </ul>
+                </div>
+                <div class="columna columna--pendiente">
+                    <h3>Por hacer <span class="columna__conteo">4</span></h3>
+                    <ul>
+                        <li>Pruebas con JUnit</li>
+                        <li>Desplegar CanchaYa</li>
+                        <li>Un proyecto individual con backend completo</li>
+                        <li>README claro en cada repositorio</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. HERRAMIENTAS -->
+        <section class="seccion" id="stack">
+            <p class="kicker">mi caja de herramientas</p>
+            <h2 class="titulo-seccion">Con qué trabajo</h2>
+            <div class="paneles">
+                <div class="papel panel revelar">
+                    <h3 class="panel__titulo">Frontend</h3>
+                    <ul class="habilidades">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="papel panel revelar">
+                    <h3 class="panel__titulo">Backend y trabajo en equipo</h3>
+                    <ul class="habilidades">
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>MySQL</li>
+                        <li>Git y GitHub</li>
+                        <li>Scrum</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SOBRE MÍ -->
+        <section class="seccion" id="sobre-mi">
+            <p class="kicker">quién está detrás del código</p>
+            <h2 class="titulo-seccion">Sobre mí</h2>
+            <div class="sobre-mi">
+                <div class="papel panel revelar">
+                    <!-- TODO: agrega aquí UN detalle concreto de tu historia (qué fue lo primero que hiciste con código, qué te enganchó). Eso te diferencia más que cualquier frase general. -->
+                    <p>Vengo del Chocó y vivo en Medellín. Antes de programar trabajé atendiendo personas y manejando
+                        información, y esa experiencia hace que piense primero en quien va a usar lo que construyo.
+                        Hoy me formo como desarrolladora Full Stack Java en un bootcamp, donde trabajamos en equipo con
+                        Scrum.</p>
+                    <ul class="habilidades">
+                        <li>Código limpio</li>
+                        <li>Creatividad visual</li>
+                        <li>Atención al cliente</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Aprendizaje constante</li>
+                    </ul>
+                </div>
+                <aside class="ficha revelar" aria-label="Ficha rápida">
+                    <p class="ficha__titulo">Ficha rápida</p>
+                    <dl>
+                        <div><dt>Origen</dt><dd>Chocó</dd></div>
+                        <div><dt>Vivo en</dt><dd>Medellín</dd></div>
+                        <div><dt>Antes</dt><dd>Atención al cliente</dd></div>
+                        <div><dt>Ahora</dt><dd>Bootcamp Full Stack Java</dd></div>
+                        <div><dt>Equipo</dt><dd>Scrum, Git y GitHub</dd></div>
+                    </dl>
+                </aside>
+            </div>
+        </section>
+
+        <!-- 6. CONTACTO -->
+        <section class="seccion" id="contacto">
+            <div class="cierre revelar">
+                <h2>¿Quieres conversar o darme feedback?</h2>
+                <p>Estoy aprendiendo y construyendo en público. Escríbeme y te respondo pronto.</p>
+                <div class="acciones">
+                    <a class="boton boton--primario" href="mailto:tucorreo@ejemplo.com">Escribir por correo</a><!-- TODO: tu correo -->
+                    <a class="boton" href="https://www.linkedin.com/in/TU-USUARIO" target="_blank" rel="noopener">LinkedIn</a><!-- TODO -->
+                    <a class="boton" href="https://github.com/TU-USUARIO" target="_blank" rel="noopener">GitHub</a><!-- TODO -->
+                </div>
+            </div>
+        </section>
+
+        <footer class="pie">
+            <p class="pie__mano">Hecho con ❤️ y mucho ☕ </p>
+            <p class="texto-suave texto-pequeno">© 2026 Soranny · SC.dev</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

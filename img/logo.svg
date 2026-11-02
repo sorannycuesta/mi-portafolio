@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Logo SC.dev">
+  <rect x="3" y="3" width="114" height="114" rx="22" fill="#1b2720" stroke="#f2a541" stroke-width="4"/>
+  <path d="M50 42 C50 33 24 33 24 47 C24 59 50 59 50 72 C50 86 22 86 22 76" fill="none" stroke="#f2a541" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M95.6 44.4 A22 22 0 1 0 95.6 75.6" fill="none" stroke="#f1ead8" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="99" cy="91" r="6" fill="#e4572e"/>
+</svg>

@@ -26,6 +26,18 @@ if (secciones.length && "IntersectionObserver" in window) {
   secciones.forEach((seccion) => observadorMenu.observe(seccion));
 }
 
+/* Cierra el menú móvil (Bootstrap) al elegir una sección */
+const menuColapsable = document.querySelector("#menuPrincipal");
+if (menuColapsable && window.bootstrap) {
+  menuColapsable.querySelectorAll("a").forEach((enlace) => {
+    enlace.addEventListener("click", () => {
+      if (menuColapsable.classList.contains("show")) {
+        window.bootstrap.Collapse.getOrCreateInstance(menuColapsable).hide();
+      }
+    });
+  });
+}
+
 /* Aparición suave de los bloques al hacer scroll */
 const bloques = document.querySelectorAll(".revelar");
 
